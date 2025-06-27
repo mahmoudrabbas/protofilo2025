@@ -6,6 +6,7 @@ import SkillsSection from "./component/SkillSection";
 import ExperienceSection from "./component/ExperienceSection";
 import ContactMeSection from "./component/ContactMeSection";
 
+
 function App() {
   const getInitialLanguage = () => localStorage.getItem("language") || "en";
   const getInitialDarkMode = () => localStorage.getItem("darkMode") === "true";
