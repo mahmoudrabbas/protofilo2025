@@ -9,6 +9,11 @@ import ContactMeSection from "./component/ContactMeSection";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import "slick-carousel/slick/slick.css";
+
+import "slick-carousel/slick/slick-theme.css";
+import "./App.css";
+
 function App() {
   const getInitialLanguage = () => localStorage.getItem("language") || "en";
   const getInitialDarkMode = () => localStorage.getItem("darkMode") === "true";
