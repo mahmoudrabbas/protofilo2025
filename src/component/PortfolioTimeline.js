@@ -2,13 +2,7 @@ import React from "react";
 import { Button, Container, Row, Col } from "reactstrap";
 import TimelineItem from "./TimelineItem";
 import profileImg from "../assets/pp1.jpg";
-import {
-  FaFacebook,
-  FaGithub,
-  FaLinkedin,
-  FaMoon,
-  FaSun,
-} from "react-icons/fa";
+import { FaMoon, FaSun } from "react-icons/fa";
 
 const PortfolioTimeline = ({ timelineData, prefrences }) => {
   const { language, setLanguage, darkMode, setDarkMode } = prefrences;
@@ -103,7 +97,7 @@ const PortfolioTimeline = ({ timelineData, prefrences }) => {
           Software Engineer | Full Stack Developer | Problem Solver
         </p>
 
-        <div className="p-1">
+        {/* <div className="p-1">
           <a
             href="https://www.linkedin.com/in/your-linkedin-profile"
             target="_blank"
@@ -128,7 +122,7 @@ const PortfolioTimeline = ({ timelineData, prefrences }) => {
           >
             <FaGithub size={24} />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <Container className="position-relative mt-4">

@@ -6,6 +6,8 @@ import SkillsSection from "./component/SkillSection";
 import ExperienceSection from "./component/ExperienceSection";
 import ContactMeSection from "./component/ContactMeSection";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   const getInitialLanguage = () => localStorage.getItem("language") || "en";
