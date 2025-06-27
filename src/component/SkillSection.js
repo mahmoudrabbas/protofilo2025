@@ -20,7 +20,6 @@ import {
   SiMysql,
   SiTypescript,
   SiRedux,
-  SiJavascript,
 } from "react-icons/si";
 import { GiArchiveResearch } from "react-icons/gi";
 

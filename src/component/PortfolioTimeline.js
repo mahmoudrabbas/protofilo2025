@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button, Container, Row, Col } from "reactstrap";
 import TimelineItem from "./TimelineItem";
 import profileImg from "../assets/pp1.jpg";

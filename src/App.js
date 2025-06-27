@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import EducationSection from "./component/EducationSection";
 import PortfolioTimeline from "./component/PortfolioTimeline";
-import Projects from "./component/Projects";
 import Footer from "./component/Footer";
 import SkillsSection from "./component/SkillSection";
 import ExperienceSection from "./component/ExperienceSection";
@@ -22,7 +21,7 @@ function App() {
     localStorage.setItem("darkMode", darkMode);
   }, [darkMode]);
 
-  const [timelineData, setTimelineData] = useState([
+  const timelineData = [
     {
       year: "2018",
       ar: "بدأت الدراسة في كلية الحاسبات والمعلومات – بداية تعلم البرمجة وأساسيات علوم الحاسوب.",
@@ -63,17 +62,7 @@ function App() {
       ar: "انتهاء الخدمة العسكرية – جاهز للرجوع لسوق العمل كمطور Backend محترف.",
       en: "Military service ended – Ready to return to the job market as a professional Backend developer.",
     },
-  ]);
-
-  // const [skills, setSkills] = useState([
-  //   { nameAr: "Java", nameEn: "Java", level: "90%" },
-  //   { nameAr: "Spring Boot", nameEn: "Spring Boot", level: "85%" },
-  //   { nameAr: "React.js", nameEn: "React.js", level: "80%" },
-  //   { nameAr: "MongoDB", nameEn: "MongoDB", level: "75%" },
-  //   { nameAr: "MySQL", nameEn: "MySQL", level: "80%" },
-  //   { nameAr: "HTML/CSS", nameEn: "HTML/CSS", level: "85%" },
-  //   { nameAr: "JavaScript", nameEn: "JavaScript", level: "85%" },
-  // ]);
+  ];
 
   return (
     <div className="App">

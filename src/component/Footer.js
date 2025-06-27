@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, NavLink, Nav } from "reactstrap";
+import { Container, Row, Col, NavLink } from "reactstrap";
 import {
   FaLinkedin,
   FaGithub,
