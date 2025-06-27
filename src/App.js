@@ -80,7 +80,7 @@ function App() {
       />
       <EducationSection language={language} />
       <ExperienceSection language={language} />
-      <SkillsSection language={language} />
+      {/* <SkillsSection language={language} /> */}
       <ContactMeSection language={language} />
       <Footer prefrences={{ language, setLanguage, darkMode, setDarkMode }} />
     </div>
